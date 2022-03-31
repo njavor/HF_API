@@ -79,7 +79,10 @@ main{
 
 @media all and (max-width: 830px) {
     h1{
-        font-size: 32;
+        font-size: 32pt;
+    }
+    h2{
+        font-size: 28pt;
     }
 }
 
