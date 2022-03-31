@@ -133,7 +133,7 @@ p{
         font-size: 26pt;
     }
     .buttons{
-        flex-direction: collumn;
+        flex-direction: column;
     }
 }
 
