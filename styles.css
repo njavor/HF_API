@@ -77,6 +77,13 @@ main{
 
 
 
+@media all and (max-width: 300px) {
+    h1{
+        font-size: 32;
+    }
+}
+
+
 
 
 button{
