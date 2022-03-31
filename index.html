@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Monoton&family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+
+    <script src="scripts.js"></script>
+
+    <title>Bacon Ipsum</title>
+</head>
+<body>
+    
+    <header>
+        <h1>Bacon Ipsum</h1>
+    </header>
+    
+    <main>
+        <div class="description">
+            <p>
+                Köztudott, hogy az embereket megzavarja az olvasható szöveg, 
+                ezért egy betűtípus megjelenítésekor a közzétevők a lipsumot 
+                használják abból a célból, hogy az emberek a szöveg megjelenésére 
+                és a betűtípusra koncentráljanak, ne pedig a tartalomra. És bár a
+                lipsum egy máig remek töltelék, miért ne vegyük húsosabbra a dolgot?
+            </p>
+        </div>
+
+        <h2>Bacon Ipsum generátor</h2>
+        <div class="bacon-ipsum">
+            <hr class="line">
+            <p id="bipsum"></p>
+            <hr class="line">
+        </div>
+        <div class="buttons">
+            <button id="copy" onclick="copyToClipboard()">MÁSOLÁS</button>
+            <button id="refresh" onclick="newBipsum()">ÚJ BIPSUM GENERÁLÁS</button>
+        </div>
+    </main>
+
+    <footer>
+        <h4>2022</h4>
+    </footer>
+
+</body>
+</html>
