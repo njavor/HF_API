@@ -77,18 +77,6 @@ main{
 
 
 
-@media all and (max-width: 830px) {
-    h1{
-        font-size: 32pt;
-    }
-    h2{
-        font-size: 28pt;
-    }
-}
-
-
-
-
 button{
     background-color: var(--red);
     color: var(--bg);
@@ -132,4 +120,16 @@ h4{
 }
 p{
     font-size: 14pt;
+}
+
+
+
+
+@media all and (max-width: 830px) {
+    h1{
+        font-size: 32pt;
+    }
+    h2{
+        font-size: 28pt;
+    }
 }
